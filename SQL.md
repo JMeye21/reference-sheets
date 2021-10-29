@@ -12,6 +12,7 @@ The following table includes the clauses, keywords, and statements that I have e
 | [DISTINCT] | Fetch different values only | SELECT DISTINCT column |
 | [FLOOR] | Returns the highest integer =< x | FLOOR(x) |
 | [FROM] | Specify the table | FROM table |
+| [GROUP BY] | Group the resulting entries based on a column | GROUP BY column |
 | [IN] | Returns a record if it is in a list of conditions, alternative to OR | WHERE column IN (value, value) |
 | [LEFT] | Grabs a substring of x characters starting on the left | LEFT(text, x) |
 | [LIMIT] | Limits the amount of results to a certain num | LIMIT num |
@@ -60,6 +61,7 @@ The queries interact with the "NAME" table:
 [DISTINCT]: https://www.w3schools.com/Sql/sql_distinct.asp
 [FLOOR]: https://www.w3schools.com/Sql/func_sqlserver_floor.asp
 [FROM]: https://www.w3schools.com/sql/sql_ref_from.asp
+[GROUP BY]: https://www.w3schools.com/sql/sql_groupby.asp
 [IN]: https://www.w3schools.com/Sql/sql_in.asp
 [LEFT]: https://www.w3schools.com/SQL/func_sqlserver_left.asp
 [LIMIT]: https://www.geeksforgeeks.org/sql-limit-clause/
